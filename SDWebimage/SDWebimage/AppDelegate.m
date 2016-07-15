@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  分享
+//  SDWebimage
 //
-//  Created by sks on 16/7/12.
+//  Created by sks on 16/7/14.
 //  Copyright © 2016年 任草木. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "UmengModel.h"
 
 @interface AppDelegate ()
 
@@ -18,56 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
-
-    [[UmengModel shareInstance]umengInit];
-    [[UmengModel shareInstance]weichat_qq_sina ];
-    
-    
-      
-    
-    
-    
     return YES;
 }
-
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
-{
-    BOOL result = [UMSocialSnsService handleOpenURL:url];
-    if (result == FALSE) {
-        //调用其他SDK，例如支付宝SDK等
-        
-        
-    }
-    return result;
-}
-
-
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
-
-    BOOL result = [UMSocialSnsService handleOpenURL:url];
-    if (result == FALSE) {
-        //调用其他SDK，例如支付宝SDK等
-        
-        
-    }
-    return result;
-}
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options{
-
-    BOOL result = [UMSocialSnsService handleOpenURL:url];
-    if (result == FALSE) {
-        //调用其他SDK，例如支付宝SDK等
-        
-        
-    }
-    return result;
-}
-
-
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
