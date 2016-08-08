@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098392C25982484874CD93FC4ED1E20E /* Pods-地图-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF6C872CF266BA7E45FE52A6AFF2F06 /* Pods-地图-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5997810AC5118DF4F7C863A38A77FBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C930B5FED367CB3DAE700ECC1134428A /* Pods-地图-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C721885ADAD00A325425C4B18821414D /* Pods-地图-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		111AF380DDD29317C56328CE0464DB4B /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
+		136A12E1F3BD54A80619E1D711484C44 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		13CAD96BDE712A9B702A0E70C2804E74 /* Pods-地图-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-地图-acknowledgements.plist"; sourceTree = "<group>"; };
+		24BDFE6D015F8BB0AF76281C59564B1B /* Pods-地图-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-地图-frameworks.sh"; sourceTree = "<group>"; };
+		28AC362B219A49597A431733B555E86A /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		32F6FC2E723A2C3E0E3852B4B307F2A3 /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53846F3390A280169223AEE981A298E6 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		758DCE2CCD54471B465DFF4A949556E2 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		7897C0522745894A20B3B291EC0300F8 /* Pods-地图.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-地图.debug.xcconfig"; sourceTree = "<group>"; };
+		7B6DE9F7AB02763FA0A59E69ACE6A31A /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
+		87737DBE979771FAF60EFC032CD714C5 /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbyUploadInfo.h; path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
+		8E837A25DB5342B5278E93A0ABE27EE3 /* Pods-地图-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-地图-resources.sh"; sourceTree = "<group>"; };
+		8EF6C872CF266BA7E45FE52A6AFF2F06 /* Pods-地图-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-地图-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95FD6F027F75E3F647234C23F7E3796F /* Pods-地图.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-地图.modulemap"; sourceTree = "<group>"; };
+		A1A0ABA684C884E6B512171FAF332F41 /* Pods-地图.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-地图.release.xcconfig"; sourceTree = "<group>"; };
+		A48D574D6B5DE548879FE0670CFA1EC1 /* AMapCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapCommonObj.h; path = AMapSearchKit.framework/Headers/AMapCommonObj.h; sourceTree = "<group>"; };
+		B04C335510D8842C66D218726B949575 /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbySearchManager.h; path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h; sourceTree = "<group>"; };
+		B995898BE761F214AE0942B45AA843A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C721885ADAD00A325425C4B18821414D /* Pods-地图-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-地图-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB18A650FA9BEF1913187DF2F935AC41 /* AMapSearchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchError.h; path = AMapSearchKit.framework/Headers/AMapSearchError.h; sourceTree = "<group>"; };
+		E95A49CA3BD46C63F93BC96E9778365B /* AMapSearchObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchObj.h; path = AMapSearchKit.framework/Headers/AMapSearchObj.h; sourceTree = "<group>"; };
+		EEB7D12DF57E8931841579F60A5F74D1 /* Pods-地图-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-地图-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFA30EB5DAC48C9CC336C6B676D7BB5F /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62EC7B83AF34DCC30DF63B5C3FA75E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5997810AC5118DF4F7C863A38A77FBEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C10BD19FDE23B275A8583F39B99A7B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AC362B219A49597A431733B555E86A /* AMap.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		27D19DB6FD9352068DB67A6EF3844763 /* AMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				854B7DD71158113C44CA9EA024F747B2 /* Frameworks */,
+			);
+			path = AMapFoundation;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5883B2509A799D895B8E03F3BB5DF727 /* AMap2DMap */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE62F69C1922CE36B31CE8C5BDD1A3 /* Frameworks */,
+				0C10BD19FDE23B275A8583F39B99A7B7 /* Resources */,
+			);
+			path = AMap2DMap;
+			sourceTree = "<group>";
+		};
+		694A57F528D3B6AD6045325CE57E96CA /* Pods-地图 */ = {
+			isa = PBXGroup;
+			children = (
+				B995898BE761F214AE0942B45AA843A9 /* Info.plist */,
+				95FD6F027F75E3F647234C23F7E3796F /* Pods-地图.modulemap */,
+				EEB7D12DF57E8931841579F60A5F74D1 /* Pods-地图-acknowledgements.markdown */,
+				13CAD96BDE712A9B702A0E70C2804E74 /* Pods-地图-acknowledgements.plist */,
+				C721885ADAD00A325425C4B18821414D /* Pods-地图-dummy.m */,
+				24BDFE6D015F8BB0AF76281C59564B1B /* Pods-地图-frameworks.sh */,
+				8E837A25DB5342B5278E93A0ABE27EE3 /* Pods-地图-resources.sh */,
+				8EF6C872CF266BA7E45FE52A6AFF2F06 /* Pods-地图-umbrella.h */,
+				7897C0522745894A20B3B291EC0300F8 /* Pods-地图.debug.xcconfig */,
+				A1A0ABA684C884E6B512171FAF332F41 /* Pods-地图.release.xcconfig */,
+			);
+			name = "Pods-地图";
+			path = "Target Support Files/Pods-地图";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				92087BC90FE05C384EE14D4CB9AF2E91 /* Pods */,
+				C971B25B34320D50D4FFB3F2E73C5790 /* Products */,
+				96B35CE91A9E563FD071EE05C865F3E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		854B7DD71158113C44CA9EA024F747B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136A12E1F3BD54A80619E1D711484C44 /* AMapFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92087BC90FE05C384EE14D4CB9AF2E91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5883B2509A799D895B8E03F3BB5DF727 /* AMap2DMap */,
+				27D19DB6FD9352068DB67A6EF3844763 /* AMapFoundation */,
+				E863CC626D82C35B8E9EAD9803601AE6 /* AMapSearch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96B35CE91A9E563FD071EE05C865F3E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				694A57F528D3B6AD6045325CE57E96CA /* Pods-地图 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C971B25B34320D50D4FFB3F2E73C5790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F6FC2E723A2C3E0E3852B4B307F2A3 /* Pods___.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E863CC626D82C35B8E9EAD9803601AE6 /* AMapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				A48D574D6B5DE548879FE0670CFA1EC1 /* AMapCommonObj.h */,
+				B04C335510D8842C66D218726B949575 /* AMapNearbySearchManager.h */,
+				87737DBE979771FAF60EFC032CD714C5 /* AMapNearbyUploadInfo.h */,
+				FFA30EB5DAC48C9CC336C6B676D7BB5F /* AMapSearchAPI.h */,
+				DB18A650FA9BEF1913187DF2F935AC41 /* AMapSearchError.h */,
+				111AF380DDD29317C56328CE0464DB4B /* AMapSearchKit.h */,
+				E95A49CA3BD46C63F93BC96E9778365B /* AMapSearchObj.h */,
+				7B6DE9F7AB02763FA0A59E69ACE6A31A /* AMapSearchVersion.h */,
+				F06F033FD2FB99B79D997EE51A53F818 /* Frameworks */,
+			);
+			path = AMapSearch;
+			sourceTree = "<group>";
+		};
+		F06F033FD2FB99B79D997EE51A53F818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758DCE2CCD54471B465DFF4A949556E2 /* AMapSearchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0DE62F69C1922CE36B31CE8C5BDD1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53846F3390A280169223AEE981A298E6 /* MAMapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C6633A4C984D37CD84F9719D80A49A66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098392C25982484874CD93FC4ED1E20E /* Pods-地图-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B580C7AFC4EC931DE33A5F4561D51B2F /* Pods-地图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB189111CB209A2F41C1F3B831B918F /* Build configuration list for PBXNativeTarget "Pods-地图" */;
+			buildPhases = (
+				08F6439F1706FC10E44B7A68FE89692C /* Sources */,
+				62EC7B83AF34DCC30DF63B5C3FA75E52 /* Frameworks */,
+				C6633A4C984D37CD84F9719D80A49A66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-地图";
+			productName = "Pods-地图";
+			productReference = 32F6FC2E723A2C3E0E3852B4B307F2A3 /* Pods___.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C971B25B34320D50D4FFB3F2E73C5790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B580C7AFC4EC931DE33A5F4561D51B2F /* Pods-地图 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F6439F1706FC10E44B7A68FE89692C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C930B5FED367CB3DAE700ECC1134428A /* Pods-地图-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8322C3118CF78C1782797AD04438246D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7897C0522745894A20B3B291EC0300F8 /* Pods-地图.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-地图/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-地图/Pods-地图.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Pods___";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2324A716AAF2CF9084364A88A3F028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A0ABA684C884E6B512171FAF332F41 /* Pods-地图.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-地图/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-地图/Pods-地图.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Pods___";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB189111CB209A2F41C1F3B831B918F /* Build configuration list for PBXNativeTarget "Pods-地图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322C3118CF78C1782797AD04438246D /* Debug */,
+				ED2324A716AAF2CF9084364A88A3F028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
